@@ -9,7 +9,7 @@
 .box{
 	width: 100px;
 	height: 100px;
-	background: blue;
+	background: green;
 }
 
 .box:first-child{
@@ -17,9 +17,10 @@
 	order: 2;
 }
 .box:nth-child(2){
+	background: blue;
 	order: 3;
 }
 .box:last-child{
-	background: green;
+/* 	background: green; */
 	order: 1;
 }
